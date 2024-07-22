@@ -642,7 +642,9 @@ h3.e {
     padding: 0 50px;
     cursor: pointer;
 }
-
+.thanku h1{
+    text-align: center;
+}
 @media (max-width:1270px) {
     .aside{
         left: -270px;
@@ -719,6 +721,9 @@ h3.e {
     .about .about-content .timeline .timeline-title{
         font-size:17px ;
     }
+    .thanku h1{
+        font-size: 16px;
+    }
 }
 @media (max-width:425px){
     .btn{
@@ -766,5 +771,8 @@ h3.e {
         width: 350px; 
         height: 170px;
         border:2px solid var(--bg-black-50);
+    }
+    .thanku h1{
+        font-size: 11px;
     }
 }
