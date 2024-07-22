@@ -749,7 +749,7 @@ h3.e {
     }
     .typing{
         font-size: 20px;
-        display: block;
+        display: inline-block;
     }
     .about .about-content .about-text h3{
         font-size: 20px;
