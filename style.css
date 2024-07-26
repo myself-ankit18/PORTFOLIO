@@ -879,3 +879,8 @@ h3.e {
         font-size: 11px;
     }
 }
+@media (max-height:500px){
+    .logo a{
+        display: none;
+    }
+}
