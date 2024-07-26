@@ -726,10 +726,17 @@ h3.e {
         margin-left: 0;
     }
 }
-@media (max-width:991px){
-      .home .home-img{
+@media (max-width:1269px){
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img{
         display: none;
     }
+}
+@media (max-width:991px){
+     
     .projects .projects-item{
         flex: 0 0 100%;
         max-width: 100%;
@@ -743,13 +750,7 @@ h3.e {
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-    
-    .home .home-info{
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
-    
+    }    
     h3.hello span{
         font-size: 40px;
     }
