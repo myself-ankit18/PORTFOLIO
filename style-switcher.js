@@ -1,27 +1,27 @@
-const toggler = document.querySelector(".style-switcher-toggler");
-toggler.addEventListener("click",()=>{
-    document.querySelector(".style-switcher").classList.toggle("open");
-})
+// const toggler = document.querySelector(".style-switcher-toggler");
+// toggler.addEventListener("click",()=>{
+//     document.querySelector(".style-switcher").classList.toggle("open");
+// })
 
 
-window.addEventListener("scroll",()=>{
-    if(document.querySelector(".style-switcher").classList.contains("open")){
-        document.querySelector(".style-switcher").classList.remove("open");
-    }
-})
+// window.addEventListener("scroll",()=>{
+//     if(document.querySelector(".style-switcher").classList.contains("open")){
+//         document.querySelector(".style-switcher").classList.remove("open");
+//     }
+// })
 
 
-const alter = document.querySelectorAll(".alternate-style");
-const setActiveStyle = ((color)=>{
-    alter.forEach((style)=>{
-        if(color == style.getAttribute("title")){
-            style.removeAttribute("disabled");
-        }
-        else{
-            style.setAttribute("disabled","true");
-        }
-    });
-});
+// const alter = document.querySelectorAll(".alternate-style");
+// const setActiveStyle = ((color)=>{
+//     alter.forEach((style)=>{
+//         if(color == style.getAttribute("title")){
+//             style.removeAttribute("disabled");
+//         }
+//         else{
+//             style.setAttribute("disabled","true");
+//         }
+//     });
+// });
 
 
 const dayNight = document.querySelector(".day-night");

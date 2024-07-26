@@ -56,11 +56,6 @@ const nav = document.querySelector(".nav"),
         document.querySelector(".home-img").classList.toggle("display_none");
         document.querySelector(".home-info").classList.toggle("flex");
     }
-    window.addEventListener("scroll",()=>{
-        if(document.querySelector(".aside").classList.contains("open")){
-            document.querySelector(".aside").classList.remove("open");
-        }
-    })
     const removeBackSection = () =>{
         for(let i=0; i<totalSelection; i++){
             allSection[i].classList.remove("back");
