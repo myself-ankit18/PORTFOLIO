@@ -41,13 +41,15 @@ const nav = document.querySelector(".nav"),
         document.querySelector("#" + target).classList.add("active")
     }
     const navTogglerBtn = document.querySelector(".nav-toggler"),
-          aside = document.querySelector(".aside");
+          aside = document.querySelector(".aside"),
+          dnd = document.querySelector(".day-night");
     navTogglerBtn.addEventListener("click",()=>{
         asidetog();
     })
     const asidetog = () =>{
         aside.classList.toggle("open");
         navTogglerBtn.classList.toggle("open");
+        dnd.classList.toggle("open");
         for(let i=0; i<totalSelection; i++){
             allSection[i].classList.toggle("open");
         }
