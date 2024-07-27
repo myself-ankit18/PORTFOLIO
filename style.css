@@ -320,6 +320,7 @@ h3.my-profession{
     color:var(--text-black-900);
     font-weight: 700;
     position: relative;
+    margin-top: 15px;
 }
 .section-title h2::before{
     content: '';
@@ -886,7 +887,7 @@ h3.e {
         display: none;
     }
 }
-@media (max-width:800px) and (max-height:480px) and (min-width:426px) {
+@media (max-width:1000px) and (max-height:480px) and (min-width:426px) {
      .aside .nav{
         display: flex;
         margin-top: 23px;
